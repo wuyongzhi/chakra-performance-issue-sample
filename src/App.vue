@@ -1,7 +1,7 @@
 <template>
     <div id="app">
 
-        <c-input v-model="title"/>
+        <c-input v-model="title" placement="input some text"/>
         <c-button mt="4" @click="toggle = !toggle">toggle performance issue</c-button>
 
         <CFlex v-if="toggle">
@@ -26,7 +26,7 @@
         name: 'App',
         data() {
             return {
-                toggle: false,
+                toggle: true,
                 title: "",
                 title2: ""
             }

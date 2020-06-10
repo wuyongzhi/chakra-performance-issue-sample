@@ -1,5 +1,7 @@
 # chakra-sample
 
+this repository sample the chakra-vue UI performance issue. 
+
 ## Project setup
 ```
 yarn install
@@ -10,15 +12,16 @@ yarn install
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
 
-### Lints and fixes files
-```
-yarn lint
-```
+## issue reproduction 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. open browser to view the home page
+2. and then input some text on the `input`
+3. you'll see the input is slow to respond.
+4. click the `toggle performance issue` button, that hidden some `Components`, input some text again, You'll notice the input response is faster.
+
+the question:
+
+1. is this a performance issue?
+2. how to fix it? 
+   
