@@ -2,7 +2,7 @@
     <div id="app">
 
         <c-input v-model="title"/>
-        <c-button @click="toggle = !toggle">toggle components</c-button>
+        <c-button mt="4" @click="toggle = !toggle">toggle performance issue</c-button>
 
         <CFlex v-if="toggle">
             <CBox pt="4" ma="5">
