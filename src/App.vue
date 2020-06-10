@@ -20,7 +20,7 @@
 </template>
 
 <script>
-    import {CBox, CButton, CFlex, CInput} from '@chakra-ui/vue'
+    import {CBox, CButton, CFlex, CInput,CStack} from '@chakra-ui/vue'
 
     export default {
         name: 'App',
@@ -32,7 +32,7 @@
             }
         },
         components: {
-            CBox, CButton, CFlex, CInput
+            CBox, CButton, CFlex, CInput,CStack
         }
     }
 </script>
