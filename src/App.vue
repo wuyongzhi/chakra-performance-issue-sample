@@ -1,7 +1,13 @@
 <template>
     <div id="app">
 
+        chakra input
         <c-input v-model="title" placement="input some text"/>
+
+        <p>
+            <input type="text" v-model="title2" placeholder="html input"/>
+        </p>
+
         <c-button mt="4" @click="toggle = !toggle">toggle performance issue</c-button>
 
         <CFlex v-if="toggle">
@@ -20,7 +26,8 @@
 </template>
 
 <script>
-    import {CBox, CButton, CFlex, CInput,CStack} from '@chakra-ui/vue'
+    import {CBox, CButton, CFlex, CInput, CStack} from '@chakra-ui/vue'
+    // import HelloWorld from "./components/HelloWorld"
 
     export default {
         name: 'App',
@@ -32,7 +39,7 @@
             }
         },
         components: {
-            CBox, CButton, CFlex, CInput,CStack
+            CBox, CButton, CFlex, CInput, CStack
         }
     }
 </script>
